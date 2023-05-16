@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Fetch/fetchCss.css">
+
+</head>
+<body>
+<form class="authorization__form needs-validation" id="formLoginPasswors" method="" action="">
+    <div class="insurance__more-bottom" >
+        <div class="loader__mb">
+                <div class="authorization__form-block mb-lg-4 mb-3">
+                    <p class="authorization-text mb-2 form-label" >Введите Email:</p>
+                    <input type="email" class="authorization-input form-control " id="login"    required 
+                    placeholder="example@mail.ru" >
+                    <div class="invalid-feedback">
+                        Пожалуйста, укажите ваш email
+                    </div>
+                </div>
+                <div class="authorization__form-block password__hidden-visible mb-lg-4 mb-4  ">
+                    <p class="authorization-text mb-2 form-labe l">Введите пароль:</p>
+                    <div class="input-group "    >
+                    <input type="password" class="authorization-input form-control  "  placeholder="XXXXX" id="pwd" required src="../img/card__img-1.png">
+                    <span class="input-group-text"  onclick="show()"><div class="password__img" ><img src="../img/eye_show.svg" alt="" id="eye"
+                        class="authorization-eye"></div></span>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите пароль
+                        </div>
+                </div>    
+                </div>
+                <div class="authorization__submit mb-lg-0 mb-3">
+                    <div type="submit"
+                        class="authorization-button   notranslate locale-authorization-button" id="log-in">Войти</div>
+                    <div class="invalid-feedback">
+                        Пожалуйста, выберите начала страховки
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="loadersum" style="margin: 0;" id="loadersum"></div>
+</form>
+
+</body>
+<script src="/Fetch/Fetch.js"></script>
+</html>
